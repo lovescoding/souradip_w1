@@ -1,0 +1,96 @@
+*{margin:0;padding:0;}
+
+
+p{
+    display: inline-block;
+    color:red;
+}
+
+a:hover{
+    transform:  rotateZ(0deg) scale(1.5);
+}
+      a{
+          margin-left:25px;
+          text-decoration: none;
+         display: inline-block;
+          width:60px;
+          background: darkblue;
+          color:white;
+          transform:  rotateZ(20deg);
+          cursor: pointer;
+          text-align: center;
+          transition: 0.5s;
+          animation: animate 2s linear infinite;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      } 
+@keyframes animate{
+    20%,50%{
+        background: cyan;
+    }
+    60%,80%{
+        background: yellow;
+    }
+    80%,10%{
+        background: deeppink;
+    }
+}
+button{
+    background: black;
+    width:max-content;
+    border:none;
+color:white;
+cursor: pointer;
+padding: 2px;
+}
+
+
+
+div{
+    width:500px;
+    margin-top:20px;
+    margin-left:50px;
+}
+h2{
+    display: block;
+    margin-top:20px;
+    margin-left:50px;
+    text-decoration: underline;
+    color:blue;
+
+}
+input{
+           margin-left: 20px;
+           padding: 5px;
+        }
+        label{
+            width:80px;
+            display: inline-block;
+        }
+        
+        table{
+            
+          display: block;
+            width:90%;
+            height:50px;
+            margin-top:20px;
+            margin-left:50px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            box-shadow: 2px 2p x5px rgba(0,0,0,0.2);
+        }
+        table th{
+            background:linear-gradient(25deg,dodgerblue,deepskyblue);
+            box-shadow: 2px 2p x5px rgba(0,0,0,0.2);
+            width:200px;
+            padding: 5px;
+            color:white;
+             }
+        
+        table td{
+            
+            text-align: center;
+            
+        }
+        table tr{
+            width:100%;
+        }
+ 
